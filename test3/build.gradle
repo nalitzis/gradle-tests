@@ -1,0 +1,8 @@
+task writefile {
+    doLast {
+        String fileContents = new File('input.txt').text
+        File output = new File('output/out.txt')
+        output << fileContents
+        println 'wrote file'
+    }
+}

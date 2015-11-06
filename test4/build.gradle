@@ -1,0 +1,6 @@
+task writePs {
+    doLast {
+          def process = new ProcessBuilder('ps', 'ax').redirectErrorStream(true).start()
+          process.inputStream.eachLine {println it}                            
+    }
+}

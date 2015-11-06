@@ -1,0 +1,2 @@
+this is a simlpe file to see if I can read from it trough a groovy script and run everything trough gradle.
+this is a simlpe file to see if I can read from it trough a groovy script and run everything trough gradle.

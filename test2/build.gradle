@@ -1,0 +1,6 @@
+task readfile {
+    doLast {
+        String fileContents = new File('example.txt').text
+        println fileContents
+    }
+}
